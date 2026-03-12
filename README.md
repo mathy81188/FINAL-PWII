@@ -1,6 +1,6 @@
-# final-p2-acn2b-britez_matias-conforti_facundo
+# final-pwII
 
-LINK DE LA PAGINA WEB: http://localhost/parcial-1-p2-acn2b-britez_matias-conforti_facundo/index.php
+LINK DE LA PAGINA WEB: 
 
 Para ejecutar la aplicación web debe realizar los siguientes pasos.
 
@@ -9,7 +9,7 @@ Para ejecutar la aplicación web debe realizar los siguientes pasos.
 2- Insertar el archivo en formato de carpeta en la carpeta HTDOCS, normalmente
 ubicada en C:\xampp\htdocs.
 
-La ruta deberia quedar de la siguiente manera: C:\xampp\htdocs\parcial-1-p2-acn2b-britez_matias-conforti_facundo
+La ruta deberia quedar de la siguiente manera: C:\xampp\htdocs\
 
 3- Ejecutar Apache y MYSQL en XAMPP.
 
