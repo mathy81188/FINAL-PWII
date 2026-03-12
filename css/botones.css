@@ -1,0 +1,116 @@
+
+/* BOTONES FOOTER Y HEADER */
+
+.button {
+    padding: 8px 18px;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    margin: 0 6px;
+    text-transform: uppercase;
+    border-radius: 6px;
+    cursor: pointer;
+    box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+    font-weight: bold;
+    transition: all 0.5s ease;
+    background-color: #F0F4F5;
+    color: black;
+
+}
+
+.button:hover {
+    letter-spacing: 3px;
+    background-color: #0099CC;
+    color: hsl(0, 0%, 100%);
+    box-shadow: #0099CC;
+}
+
+/* BOTONES CATEGORIA */
+    
+.button-categoria {
+    padding: 8px 18px;
+    font-size: 11px;
+    letter-spacing: 0.5px;
+    margin: 0 6px;
+    text-transform: uppercase;
+    border-radius: 6px;
+    border-color: rgb(170, 170, 170);
+    cursor: pointer;
+    box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+    font-weight: bold;
+    transition: all 0.5s ease;
+    color: black;
+
+}
+
+.button-categoria:hover {
+    letter-spacing: 3px;
+    background-color: #0099CC;
+    color: hsl(0, 0%, 100%);
+    box-shadow: #0099CC;
+}
+
+.button-sugerir {
+    padding: 8px 18px;
+    font-size: 11px;
+    letter-spacing: 0.5px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    border-radius: 6px;
+    border-color: rgb(170, 170, 170);
+    cursor: pointer;
+    box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+    font-weight: bold;
+    transition: all 0.5s ease;
+    color: black;
+
+}
+
+.button-sugerir:hover {
+    letter-spacing: 3px;
+    background-color: #0099CC;
+    color: hsl(0, 0%, 100%);
+    box-shadow: #0099CC;
+}
+
+/* BOTONES ADMINISTRACION */
+
+.button-administracion{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.button-administracion-editar{
+    background:#F0F4F5;
+    color: black;
+    box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 8px;
+}
+
+.button-administracion-editar:hover{
+    background-color: #0099CC;
+    transition: all 0.5s ease;
+    color: hsl(0, 0%, 100%);
+    box-shadow: #0099CC;
+}
+
+.button-administracion-eliminar{
+    background:#c82828;
+    color:white;
+    box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 8px;
+}
+
+.button-administracion-eliminar:hover{
+    background-color: #85170f;
+    transition: all 0.5s ease;
+    color: hsl(0, 0%, 100%);
+    box-shadow: #85170f;
+}
+

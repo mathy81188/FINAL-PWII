@@ -1,0 +1,50 @@
+
+/* FORMULARIO RECOMENDAR ITEMS */
+.formulario-recomendar {
+    margin-bottom: 20px;
+}
+
+.formulario-recomendar form {
+    margin: 10px 30px 30px 30px;
+    padding: 20px;
+    max-width: 500px;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.formulario-recomendar h2 {
+    font-size: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.formulario-sugerir form{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 10px;
+}
+
+.formulario-sugerir label {
+    font-weight: bold;
+    margin-bottom: 3px;
+    padding-top: 2px;
+    padding-bottom: 4px;
+}
+
+.formulario-sugerir input,
+.formulario-sugerir textarea {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 15px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.formulario-sugerir textarea {
+    resize: vertical;
+    min-height: 80px;
+}
+

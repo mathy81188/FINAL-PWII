@@ -1,0 +1,301 @@
+/* GENERALES */
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+h1 {
+    text-align: center;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+/* HEADER */
+
+.header {
+    background-color: #4A4A4A;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+.logo {
+    width: 200px;
+    vertical-align: middle;
+    margin: 15px;
+}
+
+/* FOOTER */
+
+.footer {
+    background-color: #525252;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+/* MEDIA QUERY - DISEÑO RESPOSIVE */
+
+/* TABLETAS Y PANTALLAS MEDIANAS */
+@media(min-width: 768px) and (max-width: 1368px) {
+
+    /* RESPONSIVE HEADER */
+    .header {          
+        flex-direction: column;     
+        align-items: center;
+        justify-content: center;
+        height: auto;               
+    }
+
+    .header nav {
+        display: flex;
+        flex-direction: row;        
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    /* RESPONSIVE FOOTER */
+    .footer {
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        height: auto; 
+    }
+
+    .footer nav {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+    /* RESPONSIVE TABLA ADMINISTRACION */
+
+    .button-administracion-editar,
+    .button-administracion-eliminar {
+        padding: 5px 10px;
+        font-size: 12px;
+    }
+
+    /* RESPONSIVE TARJETAS */
+
+    .tarjeta {
+        width: 220px;
+        height: 380px;
+        margin: 10px;
+    }
+
+    .tarjeta img {
+        max-height: 140px;
+    }
+
+    .tarjeta h3 {
+        font-size: 18px;
+    }
+
+    .tarjeta p {
+        font-size: 16px;
+    }
+
+    .tarjeta span {
+        font-size: 16px;
+    }
+
+    /* RESPONSIVE FORMULARIO RECOMENDAR */
+    .formulario-recomendar form {
+        padding: 15px;
+        max-width: 90%;
+    }
+
+    .formulario-recomendar h2 {
+        font-size: 20px;
+
+    }
+
+    .formulario-sugerir label {
+        font-size: 14px;
+    }
+
+    /* RESPONSIVE MODAL ADMINISTRACION */
+
+    .modal-administracion {
+        width: 90%;
+        padding: 15px;
+    }
+
+    .form-modal-administracion {
+        gap: 12px;
+    }
+
+    .form-actions {
+        justify-content: center;      /* botones centrados */
+    }
+
+}
+
+/* MOVILES Y PANTALLAS PEQUEÑAS */
+@media (max-width: 768px) {
+
+    /* RESPONSIVE HEADER */
+    .header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+    }
+
+    .header nav {
+        display: flex;
+        flex-direction: column;   /* BOTONES EN COLUMNA */
+        align-items: center;
+        gap: 10px;
+    }
+
+    /* RESPONSIVE FOOTER */
+    .footer {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+        gap: 10px;
+        padding: 15px 0;
+    }
+
+    .footer nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;
+    }
+
+    /* RESPOSIVE LOGOO*/
+    .logo {
+        margin: 10px 0;
+    }
+
+    /* RESPONSIVE FORMULARIO ADMINISTRACION */
+    .form-modal-administracion {
+        display: flex;
+        flex-direction: column;
+        margin: 5px;
+
+    }
+
+    .form-modal-administracion label {
+
+        margin: 5px;
+
+    }
+
+    .formulario-sugerir label {
+        font-size: 12px;
+    }
+
+    /* RESPONSIVE TABLA ADMINISTRACION */
+    
+    .button-administracion-editar,
+    .button-administracion-eliminar {
+        padding: 5px 10px;
+        font-size: 12px;
+
+
+    }
+
+
+    /* RESPONSIVE TARJETAS */
+    .tarjeta {
+        width: 180px;
+        height: 320px;
+        margin: 8px;
+        padding: 10px 10px 30px 10px;
+    }
+
+    .tarjeta img {
+        max-height: 110px;
+    }
+
+    .tarjeta h3 {
+        font-size: 16px;
+    }
+
+    .tarjeta p {
+        font-size: 14px;
+    }
+
+    .tarjeta span {
+        font-size: 14px;
+    }
+
+    /* RESPONSIVE FORMULARIO RECOMENDAR */
+    .formulario-recomendar form {
+        padding: 10px;
+        max-width: 90%;
+
+    }
+
+    .formulario-recomendar h2 {
+        font-size: 15px;
+
+    }
+
+    /* RESPONSIVE MODAL ADMINISTRACION */
+
+    .modal-administracion {
+        width: 95%;
+        padding: 12px;
+        margin: 10px;
+    }
+
+    .form-modal-administracion {
+        grid-template-columns: 1fr;
+        font-size: 13px;
+        gap: 10px;
+    }
+
+    .form-group input,
+    .form-group select {
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    .form-actions {
+        flex-direction: column; 
+        align-items: stretch;
+        gap: 8px;
+    }
+
+    .button-form {
+        width: 100%; 
+        padding: 10px;
+    }
+
+}

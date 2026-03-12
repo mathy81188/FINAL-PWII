@@ -1,0 +1,42 @@
+
+/* FORMULARIO Y MENU DE CATEGORIAS */
+
+.menu-categorias {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin: 20px;
+    box-shadow: rgba(76, 75, 75, 0.05) 0 0 8px;
+}
+
+
+.filtro-busqueda input,
+select {
+    padding: 5px;
+    margin: 0 5px;
+}
+
+.filtro-busqueda form {
+    width: 1200px;
+    margin: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.filtro-busquedas input {
+    padding: 17px 40px;
+    border-radius: 50px;
+    cursor: pointer;
+    border: 1;
+    box-shadow: rgba(76, 75, 75, 0.05) 0 0 8px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 5px;
+}
+
+

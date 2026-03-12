@@ -1,0 +1,94 @@
+/* MODO OSCURO */
+
+/* Tema claro (por defecto) */
+body.claro {
+    background-color: white;
+    color: black;
+}
+
+body.oscuro {
+    background-color: #111;
+    color: #eee;
+}
+
+/* Boton Modo Oscuro */
+.boton-tema {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    background: #eee;
+    color: #111;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+body.oscuro .boton-tema {
+    background: #333;
+    color: #eee;
+    border-color: #555;
+}
+
+/* Tarjetas Modo Oscuro */
+
+body.claro .tarjeta {
+    background-color: #fff;
+    color: #111;
+    border: 1px solid #6e6e6e;
+}
+
+body.oscuro .tarjeta {
+    background-color: #2c2c2c;
+    color: #eee;
+    border: 1px solid #6e6e6e;
+}
+
+body.oscuro .tarjeta:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(231, 231, 231, 0.2);
+}
+
+body.claro .tarjeta:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(68, 68, 68, 0.521);
+}
+
+/* Form modo oscuro */
+
+body.claro .formulario-recomendar {
+    background: #f9f9f9;
+    color: #111;
+    border: 1px solid #ddd;
+}
+
+body.oscuro .formulario-recomendar {
+    background: #2c2c2c;
+    color: #eee;
+    border: 1px solid #6e6e6e;
+}
+
+/* Form Categorias */
+
+body.claro .form-categorias {
+    background: #f9f9f9;
+    color: #111;
+    border: 1px solid #ddd;
+}
+
+body.oscuro .form-categorias {
+    background: #2c2c2c;
+    color: #eee;
+    border: 1px solid #6e6e6e;
+}
+
+/* Modal Administracion */
+
+body.claro .formulario-sugerir {
+    background-color: hsl(0, 0%, 100%);
+    color: #111;
+    border: 1px solid #ddd;
+}
+
+body.oscuro .formulario-sugerir {
+    background-color: #2c2c2c;
+    color: #eee;
+    border: 1px solid #6e6e6e;
+}
